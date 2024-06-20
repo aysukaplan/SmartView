@@ -1,0 +1,146 @@
+.container-b {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo-container {
+    flex-grow: 1;
+  }
+  
+  .logo {
+    width: 100px; 
+  }
+  
+  .menu-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-options li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .user-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bookmark-button, .login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .star-icon {
+    color: yellow;
+  }
+
+  .bottom-bar {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+
+  .new-blog-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .blog-content {
+    margin-top: 20px;
+  }
+  
+
+  .blog-post {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .blog-info {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+  }
+
+  .user-info-blog {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+  }
+  
+  .profile-image {
+    width: 40px; 
+    height: 40px; 
+    background-color: #ddd; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .heart-icon {
+    color: red; 
+    margin-right: 5px; 
+  }
+  
+  .blog-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-details h2{
+    text-align: right; 
+  }
+  
+  .blog-details p {
+    margin-bottom: 20px; 
+  }
+
+  .blog-image {
+    width: 200px; 
+    height: 200px; 
+    background-color: #ddd; 
+  }
+
+  .separator {
+    margin: 10px 0; 
+    border: 0; 
+    border-top: 1px solid #ccc; 
+  }
+
+  .blog-post-container {
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    background-color: #abb0b5; 
+  }
+  

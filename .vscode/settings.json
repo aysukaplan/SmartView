@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "frontend/src/login/src/Components/ProductReview/productreview/src/Components/Assets"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.configureOnOpen": true
+}

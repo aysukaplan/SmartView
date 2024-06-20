@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .right-link {
+    margin-left: auto;
+  }
+
+  /* Main content styles */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .search-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .search-box input {
+    width: 50%;
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-info {
+    margin-top: 10px;
+  }
+
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s;
+  }
+
+  .footer a:hover {
+    color: #ddd;
+  }
+
+.navbar {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between logo and links */
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+  flex: 1; /* Fill the remaining space */
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* Center the links horizontally */
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+.search-box {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.search-box input[type="text"] {
+  flex: 5; /* Take up more space */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.search-box button {
+  flex: 1; /* Take up less space */
+  margin-left: 10px; /* Add spacing between input and button */
+  padding: 11px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}

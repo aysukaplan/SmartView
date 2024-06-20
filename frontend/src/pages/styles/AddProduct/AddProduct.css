@@ -1,0 +1,10 @@
+/* src/styles/AddProduct.css */
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea, button {
+    margin: 10px 0;
+  }
+  

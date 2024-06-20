@@ -1,0 +1,23 @@
+.buttons-container {
+    display: flex; /* Display buttons side by side */
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 2px; /* Add margin to separate from footer */
+}
+
+.about-button,
+.feedback-button {
+    width: 100px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px; /* Add margin around buttons */
+    cursor: pointer;
+}
+
+
+.about-button:hover,
+.feedback-button:hover {
+    background-color: #00cc66; /* Change background color on hover */
+}

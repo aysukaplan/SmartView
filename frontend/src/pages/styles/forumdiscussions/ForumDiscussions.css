@@ -1,0 +1,115 @@
+.container-f {
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .menu-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-options li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .user-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bookmark-button, .login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .star-icon {
+    color: yellow;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .forum-content {
+    padding: 20px;
+  }
+  
+  .discussion-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .discussion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .new-discussion-forum {
+    margin-top: 20px;
+  }
+
+  
+  .new-discussion-forum button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .bottom-bar {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+
+  .profile-image {
+    width: 40px; 
+    height: 40px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; 
+    margin-right: 10px; 
+    align-self: flex-start;
+  }

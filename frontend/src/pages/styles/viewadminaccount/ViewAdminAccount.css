@@ -1,0 +1,113 @@
+.container-admin {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .logo-container .logo {
+    height: 50px;
+  }
+  
+  .menu-options ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-options li {
+    cursor: pointer;
+  }
+  
+  .user-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bookmark-button, .login-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .account-info-admin {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(64, 255, 0); 
+  }
+  
+  .account-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .account-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .account-field label {
+    margin-bottom: 5px;
+  }
+  
+  .account-field input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .action-buttons-admin {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.action-buttons-admin button {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.red-button {
+    background-color: rgb(227, 35, 35);
+}
+.red-button:hover {
+    background-color: darkred;
+}
+
+.orange-button {
+    background-color: rgb(245, 173, 40);
+}
+.orange-button:hover {
+    background-color: darkorange;
+}
+  

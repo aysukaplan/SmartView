@@ -1,0 +1,129 @@
+.container-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  position: absolute;
+  left: 200px;
+  width: 400px;
+  max-width: calc(50% - 40px);
+  margin-left: 20px;
+  margin-top: 40px;
+  border: none;
+  padding: 10px;
+}
+
+.info {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.info:first-child {
+  border-bottom: 2px solid black;
+}
+
+.info:last-child {
+  margin-top: 20px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.menu-options ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-options ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.user-options button {
+  margin-left: 20px;
+}
+
+.search-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  text-align: center;
+  position: relative;
+}
+
+.product-title .wishlist-button {
+  background: none;
+  border: none;
+  color: gold;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnail-images {
+  margin-top: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.thumbnail-images img {
+  margin: 0 5px;
+}
+
+.main-image {
+  margin: 0 20px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.reviews {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.add-review-form {
+  display: flex;
+  align-items: center;
+}
+
+.add-review-form input[type="text"] {
+  margin-right: 10px;
+}
+
+.add-review-form button {
+  order: -1;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}

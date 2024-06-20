@@ -1,0 +1,99 @@
+.account-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the content */
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+  width: fit-content; /* Adjust the width to fit the content */
+  margin-left: -860px; /* Move the grey boxes slightly to the left */
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px; /* Added padding for spacing */
+  background-color: lightgray;
+  margin-bottom: 10px;
+  width: 100%; /* Ensure each item takes up the full width of the container */
+}
+
+.rank {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  position: absolute; /* Position the rank circle absolutely */
+  right: 400px; /* Position it 20px from the right */
+  top: 220px; /* Adjust this value as needed to position vertically */
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%; /* Adjust the width of the button container */
+  gap: 10px; /* Add space between buttons */
+}
+
+.btn {
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  flex: 1; /* Make all buttons take equal space */
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+}
+
+.btn-ManageProduct {
+  background-color: green;
+  color: white;
+}
+.become-merchant {
+  background-color: rgb(30, 119, 146);
+  color: white;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.confirmation-dialog {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+}

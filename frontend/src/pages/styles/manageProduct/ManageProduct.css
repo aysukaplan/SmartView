@@ -1,0 +1,82 @@
+.manage-products {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  width: calc(33.333% - 20px);
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-description {
+  margin: 10px 0;
+}
+
+.product-price {
+  margin: 10px 0;
+}
+
+.edit-button, .delete-button, .coupon-button {
+  background-color: darkgray;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.edit-button {
+  background-color: orange;
+}
+
+.coupon-button {
+  background-color: rgb(217, 71, 120);
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.coupon-input-container {
+  margin-top: 20px;
+}
+
+.coupon-input-container input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.save-coupon-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

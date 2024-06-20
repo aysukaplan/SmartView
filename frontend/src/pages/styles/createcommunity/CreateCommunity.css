@@ -1,0 +1,78 @@
+.container-cc {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo-container {
+    flex-grow: 1;
+  }
+  
+  .logo {
+    width: 100px; 
+  }
+  
+  .menu-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-options li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .user-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bookmark-button, .login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .star-icon {
+    color: yellow;
+  }
+
+  .search-bar button{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .new-community-button {
+    padding: 10px;
+    background-color: #f8f9fa;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .bottom-bar {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }

@@ -1,0 +1,132 @@
+.container-m {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .logo-container .logo {
+    height: 50px;
+  }
+  
+  .menu-options ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-options li {
+    cursor: pointer;
+  }
+  
+  .user-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bookmark-button, .login-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .account-info-m {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 196, 0); 
+  }
+  
+  .account-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .account-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .account-field label {
+    margin-bottom: 5px;
+  }
+  
+  .account-field input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .action-buttons-merchant {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .action-buttons-merchant button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .red-button {
+    background-color: rgb(227, 35, 35);
+}
+
+  .red-button:hover {
+    background-color: darkred;
+}
+
+  .orange-button {
+    background-color: rgb(245, 173, 40);
+}
+
+  .orange-button:hover {
+    background-color: darkorange;
+}
+
+  .green-button {
+    background-color: rgb(80, 227, 35);
+}
+
+  .green-button:hover {
+    background-color: rgb(0, 145, 29);
+}
+  
+  .rating-circle-m {
+    display: inline-block;
+    width: 100px; 
+    height: 100px; 
+    background-color: rgb(0, 255, 255);
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px; 
+    font-size: 18px; 
+    margin-right: 20px; 
+  }

@@ -1,0 +1,86 @@
+.input {
+  margin-bottom: 20px;
+  width: 250px; /* Add space between the rectangles */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 100px; /* Add some spacing between header and inputs */
+}
+
+.text {
+  font-size: 24px;
+  color: #333;
+}
+
+
+.container {
+  text-align: center; /* Center the rectangles */
+}
+
+.rectangle {
+  display: inline-flex; /* Use inline-flex to allow centering */
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  border: 1px solid hsl(0, 0%, 80%); /* Gray border */
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px; /* Fill the width of the container */
+  height: 40px; /* Fill the height of the container */
+  background-color: #ccc; /* Gray background color */
+}
+
+.input-text {
+  font-size: 16px;
+  color: #777;
+  text-align: center; /* Center horizontally */
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  width: 100%; /* Ensure text takes full width */
+}
+
+.input-field {
+  font-size: 16px;
+  color: #333; /* Text color */
+  background-color: #ccc; /* White background color */
+  border: none; /* Remove border */
+  width: 100%; /* Fill the width */
+  height: 100%; /* Fill the height */
+  padding: 5px; /* Add padding */
+  border-radius: 5px; /* Add border-radius */
+  outline: none; /* Remove outline */
+  text-align: center; /* Center text horizontally */
+}
+
+.submit-container {
+  text-align: center; /* Center the button */
+}
+
+.submit {
+  background-color: green; /* Green button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-message {
+  text-align: center;
+  margin-top: 20px; /* Add some spacing */
+}
+
+.signup-message p {
+  margin-bottom: 10px; /* Add some spacing between text and button */
+}
+
+.signup {
+  background-color: orange; /* Orange button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
